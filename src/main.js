@@ -42,7 +42,7 @@ function result() {
 
   if (document.getElementById("uk").checked) {
     const weight = Math.round(21.4286) + " ponds";
-    const temperature = Math.round(34.4444) + " centigrade";
+    const temperature = Math.round(34.44444) + " centigrade";
     newStory = newStory.replace("94 fahrenheit", temperature);
     newStory = newStory.replace("300 pounds", weight);
   }
